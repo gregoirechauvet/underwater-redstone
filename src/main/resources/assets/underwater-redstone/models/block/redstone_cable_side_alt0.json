@@ -1,0 +1,7 @@
+{
+    "parent": "underwater-redstone:block/redstone_cable_side_alt",
+    "textures": {
+        "line": "underwater-redstone:block/redstone_cable_line0",
+        "inner": "underwater-redstone:block/redstone_cable_line0_inner"
+    }
+}
