@@ -10,6 +10,7 @@
 		"EndRodBlockMixin",
 		"GrindstoneBlockMixin",
 		"HopperBlockMixin",
+		"LecternBlockMixin",
 		"RedstoneWireBlockMixin",
 		"StonecutterBlockMixin"
 	],
