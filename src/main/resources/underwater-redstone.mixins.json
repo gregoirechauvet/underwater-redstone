@@ -9,7 +9,8 @@
 		"EndRodBlockMixin",
 		"GrindstoneBlockMixin",
 		"HopperBlockMixin",
-		"RedstoneWireBlockMixin"
+		"RedstoneWireBlockMixin",
+		"StonecutterBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
