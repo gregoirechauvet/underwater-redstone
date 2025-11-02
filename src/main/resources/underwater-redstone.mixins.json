@@ -6,6 +6,7 @@
 		"AnvilBlockMixin",
 		"BrewingStandBlockMixin",
 		"EndRodBlockMixin",
+		"GrindstoneBlockMixin",
 		"HopperBlockMixin",
 		"RedstoneWireBlockMixin"
 	],
