@@ -3,6 +3,7 @@
 	"package": "samy.underwaterredstone.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"EndRodBlockMixin",
 		"HopperBlockMixin",
 		"RedstoneWireBlockMixin"
 	],
