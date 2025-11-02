@@ -5,6 +5,7 @@
 	"mixins": [
 		"AnvilBlockMixin",
 		"BrewingStandBlockMixin",
+		"DaylightDetectorBlockMixin",
 		"EnchantingTableBlockMixin",
 		"EndRodBlockMixin",
 		"GrindstoneBlockMixin",
