@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:dried_kelp",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "underwater-redstone:redstone_cable",
+    "count": 1
+  }
+}
