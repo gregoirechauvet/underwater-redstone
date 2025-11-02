@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "underwater-redstone",
+	"version": "${version}",
+	"name": "Underwater redstone",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/underwater-redstone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"samy.underwaterredstone.UnderwaterRedstone"
+		],
+		"client": [
+			"samy.underwaterredstone.UnderwaterRedstoneClient"
+		]
+	},
+	"mixins": [
+		"underwater-redstone.mixins.json",
+		{
+			"config": "underwater-redstone.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
